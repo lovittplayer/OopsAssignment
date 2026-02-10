@@ -53,4 +53,11 @@ int main()
 
     Rectangle *r1 = new Rectangle();
     Rectangle *r2 = new Rectangle[10];
+
+    delete n;
+    delete x;
+    delete[] arr;
+    delete[] arr;
+    delete r1;
+    delete[] r2;
 }
